@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <title>ArcGIS API for JavaScript example</title>
+    <link rel="stylesheet"
+          type="text/css"
+          href="styles/assgn7.css">
+    <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.18/"></script>
+</head>
+<body>
+<div id="main">
+    <div id="title">
+        <h2>Postflight report: I was heading towards Lenin peak but something stopped me...</h2>
+    </div>
+    <div id="myMap" class="myMap">
+        <div id="topbar">
+            <button class="action-button esri-icon-layer-list"
+                    id="legendButton"
+                    type="button"
+                    title="Legend">
+            </button>
+            <button
+                    class="action-button esri-icon-handle-vertical"
+                    id="elevationButton"
+                    type="button"
+                    title="Elevation profile"
+            ></button>
+            <button
+                    class="action-button esri-icon-measure-line"
+                    id="distanceButton"
+                    type="button"
+                    title="Measure distance between two points"
+            ></button>
+            <button class="action-button esri-icon-measure-area"
+                    id="areaButton"
+                    type="button"
+                    title="Measure area">
+            </button>
+            <button class="action-button esri-icon-share"
+                    id="sightButton"
+                    type="button"
+                    title="Line of sight">
+            </button>
+        </div>
+    </div>
+    <br>
+    <div id="descr">
+        <div id="descr1">&#169;Daniyal Issin</div>
+        <div id="descr2">
+            <div id="text">Latitude, Longitude, Elevation:</div>
+            <div id="myposition"></div>
+        </div>
+        <div id="descr3">
+            <a href="https://nscc.ca" target="_blank">
+                <img id="logo" src="styles/COGS.jpg">
+            </a>
+        </div>
+    </div>
+</div>
+<script src="scripts/assgn7.js"> </script>
+</body>
+</html>
