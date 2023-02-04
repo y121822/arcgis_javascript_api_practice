@@ -35,8 +35,7 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
         view.on('pointer-move', function(event){
             var point = view.toMap({x: event.x, y: event.y});
             if(point!=null) {
-                document.querySelector("#myPosition").innerHTML = point.latitude.toFixed(4) + ", " +
-                    point.longitude.toFixed(4) + ", " + point.z.toFixed(0) + " m."
+                document.querySelector("#myPosition").innerHTML = point.z.toFixed(2)
             }
             else{document.querySelector("#myPosition").innerHTML = ''}
         });
