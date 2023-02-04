@@ -69,7 +69,7 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
                 type:'unique-value',
                 field: 'type',
                 uniqueValueInfos:[
-                    {value: 'Prepare to land',
+                    {value: 'Stop_soon',
                      symbol: {
                         type: 'web-style',
                          name: "Stop_Ahead",
@@ -95,14 +95,14 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
                     },
                     attributes:{
                         ObjectID:1,
-                        type: 'Prepare to land',
-                        name: 'Is seems you are drunk, aren`t you?',
+                        type: 'Stop_soon',
+                        name: 'Consider landing',
                         height: '300'
                     }
                 }
             ],
             popupTemplate:{
-                title:'Something is wrong...',
+                title:'You shouldn`t fly there',
                 content:[
                     {
                         type:'fields',
@@ -179,7 +179,7 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
                 }
             ],
             popupTemplate:{
-                title:'The undercovered Mi-8MTV mimicking an Eurocopter ',
+                title:'The undercovered Mi-8MTV5 mimicking an Eurocopter ',
                 content:[
                     {
                         type:'fields',
@@ -222,7 +222,7 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
                 type:'unique-value',
                 field: 'type',
                 uniqueValueInfos:[
-                    {value: 'Achtung! Land immediately!!!',
+                    {value: 'Stop_now',
                         symbol: {
                             type: 'web-style',
                             name: "Stop",
@@ -248,14 +248,14 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
                     },
                     attributes:{
                         ObjectID:1,
-                        type: 'Achtung! Land immediately!!!',
-                        name: 'You are definitely drunk! Land immediately!!!',
+                        type: 'Stop_now',
+                        name: 'Land immediately!',
                         height: '300'
                     }
                 }
             ],
             popupTemplate:{
-                title:'Achtung! Land immediately!!!',
+                title:'Don`t fly there!',
                 content:[
                     {
                         type:'fields',
@@ -360,10 +360,10 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
                     view: view,
                     profiles: [
                         {
-                            type: "ground" // first profile line samples the ground elevation
+                            type: "ground"
                         },
                         {
-                            type: "view" // second profile samples the view and shows building profiles
+                            type: "view"
                         }
                     ],
                     visibleElements: {
