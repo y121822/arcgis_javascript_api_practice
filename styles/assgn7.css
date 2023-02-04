@@ -2,11 +2,16 @@ body{
     background-color: #3d85c6;
 }
 
-#main{
-    height: 84vh;
-    width: 90vw;;
-    margin: auto;
-}
+#main {
+        height: 84vh;
+        width: 90vw;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
 
 #title{
     background-color: #1c4587;
@@ -24,8 +29,8 @@ body{
 
 #topbar{
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 12px;
+    right: 12px;
     background-color: transparent;
     padding: 3px;
 }
