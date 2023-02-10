@@ -3,7 +3,7 @@
 Цель: 
 получение практических навыков в работе с ArcGIS JavaScript API (ныне ArcGIS Maps SDK for JavaScript).
 
-Визуализация: 
+3D визуализация: 
 https://y121822.github.io/
 
 Оценка:
