@@ -3,11 +3,11 @@ body{
 }
 
 #main {
-        height: 83vh;
+        height: 79vh;
         width: 90vw;
         margin: 0;
         position: absolute;
-        top: 44%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
