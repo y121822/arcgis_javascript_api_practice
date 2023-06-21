@@ -5,7 +5,7 @@ require(["esri/config","esri/Map","esri/Camera", "esri/views/SceneView", "esri/l
         "esri/widgets/LayerList", "esri/widgets/ElevationProfile", "esri/widgets/LineOfSight"],
     function (esriConfig,Map, Camera, SceneView, FeatureLayer, Home, DirectLineMeasurement3D, AreaMeasurement3D, Legend,
               LayerList, ElevationProfile,LineOfSight) {
-        esriConfig.apiKey = "AAPKddb5a5492ebb483d8a0920250207555bmfTH8aiszDnffsCfYAEAeME_Q1844Fs0qcQYT9bAvX82LEvgtsHRZVg-pMbK3fPz";
+        esriConfig.apiKey = "AAPKb69f131c1b344f19a13dceb464cdd796zArHiE4R_MfznYlv_fezVWx3SFkg01uotw5OLXb5tRCfiA7UglyDvwrF4o6J3h6y";
 
         const map = new Map({
             basemap: "arcgis-imagery",
