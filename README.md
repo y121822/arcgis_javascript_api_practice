@@ -8,7 +8,7 @@ Centre of Geographic Sciences.Nova Scotia Community College
 (Lawrencetown, Nova Scotia, Canada).
 
 ## Goal
-Obtaining practical skills with ArcGIS Maps SDK for JavaScript).
+Obtaining practical skills with ArcGIS Maps SDK for JavaScript.
 
 ## Task
 - Create 3D map 
